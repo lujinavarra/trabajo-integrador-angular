@@ -7,7 +7,6 @@
 
 
 <mat-list *ngIf="mostrar" class="lista">
-  <!-- <h3 matSubheader>Listado de Productos</h3> -->
   <mat-list-item *ngFor="let producto of productos" class="item">
     <mat-icon matListIcon>medication_liquid</mat-icon> 
     <h4 matListItemTitle>{{producto.nombre}}</h4>
